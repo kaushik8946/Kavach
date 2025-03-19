@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.telephony.SmsManager
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Box
 import androidx.compose.ui.res.painterResource
 import androidx.core.app.ActivityCompat
@@ -33,6 +34,7 @@ class MainActivity : ComponentActivity() {
     @OptIn(DelicateCoroutinesApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+//        enableEdgeToEdge()
         val smsManager = getSystemService(SmsManager::class.java)!!
         GlobalScope.launch {
             phoneContactsMap = retrieveContacts(applicationContext)

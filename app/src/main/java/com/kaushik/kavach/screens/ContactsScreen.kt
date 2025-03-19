@@ -87,7 +87,7 @@ fun ContactsScreen(navController: NavHostController, db: ContactDatabase) {
             ) {
                 Text(
                     modifier = Modifier.align(Alignment.Center),
-                    text = "import contacts",
+                    text = "Import contacts",
                     fontSize = 30.sp
                 )
             }
