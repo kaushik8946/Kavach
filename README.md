@@ -7,6 +7,24 @@
 - Integrated an **Emergency Trigger** functionality that can be activated via a prominent button and voice detection.
 - Automated **Location-Based SMS**, retrieving the user’s location using **GPS** or network services and sending it to emergency contacts.
 - Focused on creating a **simple and user-friendly interface**, prioritizing ease of use in high-stress situations.
+# Screenshots
+
+| <img src="screenshots/1.HomeScreen.jpg" width="200"> | <img src="screenshots/2.ContactsScreen.jpg" width="200"> |
+|:----------------------------------------------------:|:------------------------------------------------------:|
+| **Home Screen**                                      | **Contacts Screen**                                    |
+
+| <img src="screenshots/3.AddContact.jpg" width="200"> | <img src="screenshots/4.ImportContacts.jpg" width="200"> |
+|:----------------------------------------------------:|:------------------------------------------------------:|
+| **Add Contact**                                      | **Import Contacts**                                    |
+
+| <img src="screenshots/5.ViewContacts.jpg" width="200"> | <img src="screenshots/6.PressToSayKavach.jpg" width="200"> |
+|:------------------------------------------------------:|:----------------------------------------------------------:|
+| **View Contacts**                                       | **Press to Say Kavach**                                     |
+
+| <img src="screenshots/7.KavachDetected.jpg" width="200"> | <img src="screenshots/8.SMS.jpg" width="200"> |
+|:--------------------------------------------------------:|:---------------------------------------------:|
+| **Kavach Detected**                                       | **SMS**                                      |
+
 
 # Tech stack:
 - Kotlin
