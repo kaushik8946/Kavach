@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .image-box {
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .description {
+            margin-top: 5px;
+            font-size: 20px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-box">
+            <img src="1.Home Screen.jpg" alt="Home Screen">
+            <div class="description">Home Screen</div>
+        </div>
+        <div class="image-box">
+            <img src="2.Contacts Screen.jpg" alt="Contacts Screen">
+            <div class="description">Contacts Screen</div>
+        </div>
+        <div class="image-box">
+            <img src="3.Add Contact.jpg" alt="Add Contact">
+            <div class="description">Add Contact</div>
+        </div>
+        <div class="image-box">
+            <img src="4.Import Contacts.jpg" alt="Import Contacts">
+            <div class="description">Import Contacts</div>
+        </div>
+        <div class="image-box">
+            <img src="5.View Contacts.jpg" alt="View Contacts">
+            <div class="description">View Contacts</div>
+        </div>
+        <div class="image-box">
+            <img src="6.Press to say Kavach.jpg" alt="Press to Say Kavach">
+            <div class="description">Press to Say Kavach</div>
+        </div>
+        <div class="image-box">
+            <img src="7.Kavach Detected.jpg" alt="Kavach Detected">
+            <div class="description">Kavach Detected</div>
+        </div>
+        <div class="image-box">
+            <img src="8.SMS.jpg" alt="SMS">
+            <div class="description">SMS</div>
+        </div>
+    </div>
+
+</body>
+</html>
